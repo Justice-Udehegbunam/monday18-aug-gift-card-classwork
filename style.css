@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(16, 20, 36, 0.589);
+}
+
+.container {
+  margin: 100px;
+  padding: 0 0px 60px;
+  background-color: rgba(89, 92, 107, 0.589);
+  border-radius: 10px;
+  box-shadow: 20px 20px 8px rgba(89, 92, 107, 0.389);
+  max-width: 500px;
+  position: fixed;
+}
+
+.logo {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1.8pt;
+  text-shadow: black;
+  color: rgb(21, 224, 21);
+  padding: 40px 0 20px;
+  margin-left: 190px;
+}
+
+.text {
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 0;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  color: #fcfcfc;
+}
+
+.outline {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 50px 0;
+}
+
+
+.right-dash {
+  width: 180px;
+  height: 1px;
+  background-color: rgba(166, 170, 190, 0.952);
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+.vertical-dash1 {
+  width: 6px;
+  height: 16px;
+  background-color: #fcfcfc;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.left-dash {
+  width: 200px;
+  height: 1px;
+  background-color: rgba(166, 170, 190, 0.952);
+  margin-top: 8px;
+}
+
+.stop-icon {
+  display: inline-flex;
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
